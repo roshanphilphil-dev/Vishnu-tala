@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Tala - The Ultimate Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero {
+            padding: 50px 20px;
+        }
+        .hero img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        .features {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .pricing {
+            padding: 20px;
+        }
+        button {
+            background: gold;
+            color: black;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #ffd700;
+        }
+        footer {
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vishnu Tala</h1>
+        <p>Why Vishnu Tala? Because ordinary just won’t do. We bring you a product that’s got it all — and maybe a little more than you bargained for.</p>
+    </header>
+    
+    <section class="hero">
+        <img src="https://via.placeholder.com/300x300?text=Vishnu+Tala" alt="Vishnu Tala Product Image">
+        <h2>$50 (A small price for being this cool!)</h2>
+    </section>
+    
+    <section class="features">
+        <h3>Product Features</h3>
+        <ul>
+            <li><strong>High Durability:</strong> Made to last longer than your last relationship. Tough as nails, but smooth as charm.</li>
+            <li><strong>High Mood Swing Ratio:</strong> Experience mood swings with style! Watch out world, this one’s got moods but a seriously cool attitude.</li>
+            <li><strong>No Comments Mode:</strong> Silent but deadly. No talking back, no snitching, just pure swag.</li>
+            <li><strong>Sexy Look:</strong> Comes standard with “I woke up like this” vibes. Rock those shades and that attitude like a pro.</li>
+        </ul>
+    </section>
+    
+    <section class="pricing">
+        <button onclick="alert('Thank you for your purchase! (This is a demo - integrate with a real payment gateway like Stripe.)')">Buy Now</button>
+    </section>
+    
+    <footer>
+        <p>Contact: info@vishnutala.com | © 2023 Vishnu Tala</p>
+    </footer>
+    
+    <script>
+        // Simple JS for fun - changes button text on hover
+        const button = document.querySelector('button');
+        button.addEventListener('mouseenter', () => button.textContent = 'Get Your Swag On!');
+        button.addEventListener('mouseleave', () => button.textContent = 'Buy Now');
+    </script>
+</body>
+</html>
